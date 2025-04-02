@@ -17,14 +17,26 @@
     <meta property="og:url" content="https://www.asogbu.com/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="asogbu">
-
-    <meta http-equiv="refresh" content="1; url=./recital.html">
 </head>
 
 <body>
     <p>
         Hello World! This is asogbu.
     </p>
+
+    <script>
+        var userLang = navigator.language || navigator.userLanguage;
+
+        setTimeout(function () {
+            if (userLang.startsWith('es')) {                // Spanish
+                window.location.href = "/es/recital.html";
+            } else if (userLang.startsWith('it')) {         // Italian
+                window.location.href = "/it/recital.html";
+            } else {                                        // English
+                window.location.href = "/recital.html";
+            }
+        }, 1000);
+    </script>
 </body>
 
 </html>
