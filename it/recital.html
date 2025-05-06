@@ -10,6 +10,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <style>
+        :root {
+            --gray: #525252;
+        }
+    </style>
 
     <title>Recital di Pianoforte - asogbu</title>
     <meta name="description" content="Recital di Pianoforte Santiago Orozco e amici del 4 aprile 2025.">
@@ -56,34 +62,76 @@
                     <iframe
                         src="https://www.youtube-nocookie.com/embed/49Fpsq7wD0k?si=IZMf4Nnc_XsBCS9g&cc_lang_pref=it&cc_load_policy=1"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        class="rounded" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
     </section>
 
     <section class="text-light bg-black mt-0">
-        <div class="pt-5 pb-1" style="background: #525252;">
+        <div class="pt-5 pb-1" style="background: var(--gray);">
             <div class="container">
                 <h2>Programma</h2>
                 <ul class="mt-4 mb-5 row gap-3">
                     <li>
                         <h5><i></i>Gnossiene</i> n. 1: <i>Lent</i></h5>
-                        <a class="text-light" href="https://it.wikipedia.org/wiki/Erik_Satie" target="_blank">
-                            Erik Satie
-                        </a>
+                        <div class="pb-3 d-flex align-items-center gap-3">
+                            <a class="text-light" href="https://it.wikipedia.org/wiki/Erik_Satie" target="_blank">
+                                Erik Satie</a>
+                            <button class="btn btn-dark btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSatie"
+                                aria-expanded="false" aria-controls="collapseSatie">
+                                Video
+                            </button>
+                        </div>
+                        <div class="collapse pb-2" id="collapseSatie">
+                            <div class="container d-flex justify-content-center">
+                                <div class="ratio ratio-16x9" style="max-width: 560px;">
+                                    <iframe src="https://www.youtube-nocookie.com/embed/eJssyCRUH6g?si=lKs3rmCRcj2fqvmN"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        class="rounded" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                     <li>
                         <h5>Preludio in Sol minore, op. 28, n. 22: <i>Molto agitato</i></h5>
-                        <a class="text-light" href="https://it.wikipedia.org/wiki/Fryderyk_Chopin" target="_blank">
-                            Fryderyk Chopin
-                        </a>
+                        <div class="pb-3 d-flex align-items-center gap-3">
+                            <a class="text-light" href="https://it.wikipedia.org/wiki/Fryderyk_Chopin" target="_blank">
+                                Fryderyk Chopin</a>
+                            <button class="btn btn-dark btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#collapseChopin1"
+                                aria-expanded="false" aria-controls="collapseChopin1">
+                                Video
+                            </button>
+                        </div>
+                        <div class="collapse pb-2" id="collapseChopin1">
+                            <div class="container d-flex justify-content-center">
+                                <div class="ratio ratio-16x9" style="max-width: 560px;">
+                                    <iframe src="https://www.youtube-nocookie.com/embed/8eynZtGCoGI?si=pBqt0W4DJjGHtKgU"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        class="rounded" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                     <li>
                         <h5>Notturno in Mi minore, op. 72 n. 1, WN 23: <i>Andante</i></h5>
-                        <a class="text-light" href="https://it.wikipedia.org/wiki/Fryderyk_Chopin" target="_blank">
-                            Fryderyk Chopin
-                        </a>
+                        <div class="pb-3 d-flex align-items-center gap-3">
+                            <a class="text-light" href="https://it.wikipedia.org/wiki/Fryderyk_Chopin" target="_blank">
+                                Fryderyk Chopin</a>
+                            <button class="btn btn-dark btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#collapseChopin2"
+                                aria-expanded="false" aria-controls="collapseChopin2">
+                                Video
+                            </button>
+                        </div>
+                        <div class="collapse pb-2" id="collapseChopin2">
+                            <div class="container d-flex justify-content-center">
+                                <div class="ratio ratio-16x9" style="max-width: 560px;">
+                                    <iframe src="https://www.youtube-nocookie.com/embed/J-mvyMGW4Wg?si=NpcYpV7EZ8rU1Vse"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        class="rounded" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -97,34 +145,90 @@
                         <ol type="I">
                             <li><i>Molto allegro</i></li>
                         </ol>
-                        <a class="text-light" href="https://it.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart" target="_blank">
-                            Wolfgang Amadeus Mozart
-                        </a>
+                        <div class="pt-2 pb-3 d-flex align-items-center gap-3">
+                            <a class="text-light" href="https://it.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart" target="_blank">
+                                Wolfgang Amadeus Mozart</a>
+                            <button class="btn btn-light btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMozart"
+                                aria-expanded="false" aria-controls="collapseMozart">
+                                Video
+                            </button>
+                        </div>
+                        <div class="collapse pb-2" id="collapseMozart">
+                            <div class="container d-flex justify-content-center">
+                                <div class="ratio ratio-16x9 rounded" style="max-width: 560px;">
+                                    <iframe src="https://www.youtube-nocookie.com/embed/zhvCbNSCbTw?si=Kz-eoqbnzLDsVp76"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        class="rounded" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                     <li>
                         <h5>Omaggio a Villanueva</h5>
-                        <a class="text-light" href="https://it.wikipedia.org/wiki/Manuel_Ponce" target="_blank">
-                            Manuel Ponce
-                        </a>
+                        <div class="pb-3 d-flex align-items-center gap-3">
+                            <a class="text-light" href="https://it.wikipedia.org/wiki/Manuel_Ponce" target="_blank">
+                                Manuel Ponce</a>
+                            <button class="btn btn-light btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePonce"
+                                aria-expanded="false" aria-controls="collapsePonce">
+                                Video
+                            </button>
+                        </div>
+                        <div class="collapse pb-2" id="collapsePonce">
+                            <div class="container d-flex justify-content-center">
+                                <div class="ratio ratio-16x9 rounded" style="max-width: 560px;">
+                                    <iframe src="https://www.youtube-nocookie.com/embed/1ybRyhFnHvo?si=v-W18UTV09zua64a"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        class="rounded" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
         </div>
 
-        <div class="py-1"  style="background: #525252;">
+        <div class="py-1"  style="background: var(--gray);">
             <div class="container">
                 <ul class="my-5 row gap-3">
                     <li>
                         <h5>Preludio in Do diesis minore, op. 3, n. 2</h5>
-                        <a class="text-light" href="https://it.wikipedia.org/wiki/Sergej_Vasil%27evič_Rachmaninov" target="_blank">
-                            Sergej Vasil'evič Rachmaninov
-                        </a>
+                        <div class="pb-3 d-flex align-items-center gap-3">
+                            <a class="text-light" href="https://it.wikipedia.org/wiki/Sergej_Vasil%27evič_Rachmaninov" target="_blank">
+                                Sergej Vasil'evič Rachmaninov</a>
+                            <button class="btn btn-dark btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRach"
+                                aria-expanded="false" aria-controls="collapseRach">
+                                Video
+                            </button>
+                        </div>
+                        <div class="collapse pb-2" id="collapseRach">
+                            <div class="container d-flex justify-content-center">
+                                <div class="ratio ratio-16x9" style="max-width: 560px;">
+                                    <iframe src="https://www.youtube-nocookie.com/embed/i7dbOaY12Zk?si=XIer0ejPeQG3M0mv"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        class="rounded" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                     <li>
                         <h5>Toccata in Mi bemolle minore</h5>
-                        <a class="text-light" href="https://it.wikipedia.org/wiki/Aram_Il%27ič_Chačaturjan" target="_blank">
-                            Aram Il'ič Chačaturjan
-                        </a>
+                        <div class="pb-3 d-flex align-items-center gap-3">
+                            <a class="text-light" href="https://it.wikipedia.org/wiki/Aram_Il%27ič_Chačaturjan" target="_blank">
+                                Aram Il'ič Chačaturjan</a>
+                            <button class="btn btn-dark btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#collapseToccata"
+                                aria-expanded="false" aria-controls="collapseToccata">
+                                Video
+                            </button>
+                        </div>
+                        <div class="collapse pb-2" id="collapseToccata">
+                            <div class="container d-flex justify-content-center">
+                                <div class="ratio ratio-16x9" style="max-width: 560px;">
+                                    <iframe src="https://www.youtube-nocookie.com/embed/CVNQokSt4r8?si=WVMVILqzmXrbtzXn"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        class="rounded" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -145,18 +249,46 @@
                             <li><i>Romanze. Andantino.</i></li>
                             <li><i>Rondo. Allegro vivace.</i></li>
                         </ol>
-                        <a class="text-light" href="https://it.wikipedia.org/wiki/Anton_Diabelli" target="_blank">
-                            Anton Diabelli
-                        </a>
+                        <div class="pt-2 pb-3 d-flex align-items-center gap-3">
+                            <a class="text-light" href="https://it.wikipedia.org/wiki/Anton_Diabelli" target="_blank">
+                                Anton Diabelli</a>
+                            <button class="btn btn-light btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDiabelli"
+                                aria-expanded="false" aria-controls="collapseDiabelli">
+                                Video
+                            </button>
+                        </div>
+                        <div class="collapse" id="collapseDiabelli">
+                            <div class="container d-flex justify-content-center">
+                                <div class="ratio ratio-16x9 rounded" style="max-width: 560px;">
+                                    <iframe src="https://www.youtube-nocookie.com/embed/SMV7_Gdnfbk?si=41jQOph8DIVvXDGN"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        class="rounded" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                     <li>
                         <h5 class="mb-0">La cumparsita</h5>
                         <ul class="mb-2">
                             <li><small>Carla Gorjón <i>Nacchere</i></small></li>
                         </ul>
-                        <a class="text-light" href="https://it.wikipedia.org/wiki/Gerardo_Matos_Rodríguez" target="_blank">
-                            Gerardo Matos Rodríguez
-                        </a>
+                        <div class="pb-3 d-flex align-items-center gap-3">
+                            <a class="text-light" href="https://it.wikipedia.org/wiki/Gerardo_Matos_Rodríguez" target="_blank">
+                                Gerardo Matos Rodríguez</a>
+                            <button class="btn btn-light btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCumpar"
+                                aria-expanded="false" aria-controls="collapseCumpar">
+                                Video
+                            </button>
+                        </div>
+                        <div class="collapse pb-2" id="collapseCumpar">
+                            <div class="container d-flex justify-content-center">
+                                <div class="ratio ratio-16x9 rounded" style="max-width: 560px;">
+                                    <iframe src="https://www.youtube-nocookie.com/embed/GvHlXlpWdrg?si=gpA4iSWEWWvld0_1"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        class="rounded" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                     <li>
                         <h5 class="mb-0">
@@ -169,9 +301,23 @@
                             <li><small>Santiago Orozco <i>Primo</i></small></li>
                             <li><small>Guillermo Salvador <i>Secondo</i></small></li>
                         </ul>
-                        <a class="text-light" href="https://it.wikipedia.org/wiki/Giuseppe_Verdi" target="_blank">
-                            Giuseppe Verdi
-                        </a>
+                        <div class="pb-3 d-flex align-items-center gap-3">
+                            <a class="text-light" href="https://it.wikipedia.org/wiki/Giuseppe_Verdi" target="_blank">
+                                Giuseppe Verdi</a>
+                            <button class="btn btn-light btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVerdi"
+                                aria-expanded="false" aria-controls="collapseVerdi">
+                                Video
+                            </button>
+                        </div>
+                        <div class="collapse pb-2" id="collapseVerdi">
+                            <div class="container d-flex justify-content-center">
+                                <div class="ratio ratio-16x9 rounded" style="max-width: 560px;">
+                                    <iframe src="https://www.youtube-nocookie.com/embed/gpWIgHUGlLk?si=qA5yK-yn2gxveHNX"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        class="rounded" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                     <li>
                         <h5 class="mb-0"><i>Experience</i></h5>
@@ -179,9 +325,23 @@
                             <li><small>Ángel Martínez <i>Violino</i></small></li>
                             <li><small>Carla Gorjón <i>Nacchere</i></small></li>
                         </ul>
-                        <a class="text-light" href="https://it.wikipedia.org/wiki/Ludovico_Einaudi" target="_blank">
-                            Ludovico Einaudi
-                        </a>
+                        <div class="pb-3 d-flex align-items-center gap-3">
+                            <a class="text-light" href="https://it.wikipedia.org/wiki/Ludovico_Einaudi" target="_blank">
+                                Ludovico Einaudi</a>
+                            <button class="btn btn-light btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExp"
+                                aria-expanded="false" aria-controls="collapseExp">
+                                Video
+                            </button>
+                        </div>
+                        <div class="collapse pb-2" id="collapseExp">
+                            <div class="container d-flex justify-content-center">
+                                <div class="ratio ratio-16x9 rounded" style="max-width: 560px;">
+                                    <iframe src="https://www.youtube-nocookie.com/embed/eGNYy4Cwsh4?si=AvZ2dzzYx3UGyu2p"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        class="rounded" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
